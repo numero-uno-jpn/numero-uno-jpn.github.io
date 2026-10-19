@@ -9,6 +9,7 @@ title: 梅谷 直亨 / Naoyuki Umetani, MD, PhD
 Gastrointestinal surgeon in Tokyo. Over three decades I have practiced the full range of gastrointestinal surgery, conducted research on colorectal cancer, and cared for cancer patients from surgery through chemotherapy and palliative care. Building on that experience, my current focus is **laparoscopic surgery for rectal prolapse**.
 
 - 主な業績の一覧: [業績一覧](publications.md)
+- ORCID: [0009-0003-3209-0629](https://orcid.org/0009-0003-3209-0629)
 - 研究の系譜マップ: [血中遊離 DNA の integrity によるがん診断](research-map/)
 - 直腸脱の情報サイト: [直腸脱.info (datsu.info)](https://www.datsu.info/)
 
