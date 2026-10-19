@@ -1,0 +1,20 @@
+{
+ "17108224": {
+  "doi": "10.1196/annals.1368.040",
+  "short": "Serum vs plasma (Ann N Y Acad Sci 2006)",
+  "openalex": "https://openalex.org/W2050664443",
+  "cited_by_count_openalex": 113
+ },
+ "16963729": {
+  "doi": "10.1200/jco.2006.05.9493",
+  "short": "Breast cancer DNA integrity (J Clin Oncol 2006)",
+  "openalex": "https://openalex.org/W2100675674",
+  "cited_by_count_openalex": 351
+ },
+ "16723681": {
+  "doi": "10.1373/clinchem.2006.068577",
+  "short": "ALU qPCR DNA integrity (Clin Chem 2006)",
+  "openalex": "https://openalex.org/W1990915258",
+  "cited_by_count_openalex": 331
+ }
+}

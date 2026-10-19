@@ -1,0 +1,363 @@
+{
+ "n_total": 1175,
+ "n_direct": 606,
+ "n_keyword_only": 569,
+ "relevance": {
+  "integrity": 264,
+  "fragmentomics": 482,
+  "other": 163,
+  "cfDNA (general)": 266
+ },
+ "relevance_direct": {
+  "other": 163,
+  "integrity": 141,
+  "cfDNA (general)": 261,
+  "fragmentomics": 41
+ },
+ "pubtype_integrity": {
+  "original": 236,
+  "review": 16,
+  "systematic review": 6,
+  "meta-analysis": 6
+ },
+ "year_integrity": {
+  "1977": 1,
+  "2003": 1,
+  "2004": 1,
+  "2006": 4,
+  "2007": 5,
+  "2008": 7,
+  "2009": 4,
+  "2010": 5,
+  "2011": 6,
+  "2012": 7,
+  "2013": 10,
+  "2014": 11,
+  "2015": 10,
+  "2016": 13,
+  "2017": 9,
+  "2018": 22,
+  "2019": 18,
+  "2020": 15,
+  "2021": 21,
+  "2022": 23,
+  "2023": 20,
+  "2024": 14,
+  "2025": 19,
+  "2026": 18
+ },
+ "year_direct": {
+  "2006": 5,
+  "2007": 14,
+  "2008": 29,
+  "2009": 17,
+  "2010": 23,
+  "2011": 23,
+  "2012": 28,
+  "2013": 33,
+  "2014": 28,
+  "2015": 45,
+  "2016": 41,
+  "2017": 36,
+  "2018": 48,
+  "2019": 38,
+  "2020": 40,
+  "2021": 38,
+  "2022": 36,
+  "2023": 29,
+  "2024": 27,
+  "2025": 17,
+  "2026": 11
+ },
+ "cancers_integrity": [
+  [
+   "colorectal",
+   45
+  ],
+  [
+   "breast",
+   43
+  ],
+  [
+   "lung",
+   19
+  ],
+  [
+   "liver",
+   15
+  ],
+  [
+   "prostate",
+   14
+  ],
+  [
+   "ovary",
+   12
+  ],
+  [
+   "bladder/urothelial",
+   8
+  ],
+  [
+   "hematologic",
+   8
+  ],
+  [
+   "endometrium",
+   8
+  ],
+  [
+   "thyroid",
+   7
+  ],
+  [
+   "head & neck",
+   6
+  ],
+  [
+   "gastric",
+   6
+  ],
+  [
+   "kidney",
+   6
+  ],
+  [
+   "pancreas",
+   5
+  ],
+  [
+   "biliary/periampullary",
+   4
+  ],
+  [
+   "testis",
+   4
+  ],
+  [
+   "esophagus",
+   3
+  ],
+  [
+   "melanoma",
+   3
+  ],
+  [
+   "brain",
+   2
+  ],
+  [
+   "sarcoma",
+   2
+  ],
+  [
+   "neuroblastoma",
+   2
+  ]
+ ],
+ "noncancer_integrity": [
+  [
+   "infection",
+   16
+  ],
+  [
+   "pregnancy/fetal",
+   12
+  ],
+  [
+   "autoimmune/inflammatory",
+   5
+  ],
+  [
+   "trauma/critical care",
+   5
+  ],
+  [
+   "transplant",
+   3
+  ],
+  [
+   "cardiovascular",
+   2
+  ],
+  [
+   "exercise",
+   2
+  ]
+ ],
+ "specimen_integrity": [
+  [
+   "plasma",
+   141
+  ],
+  [
+   "tissue",
+   82
+  ],
+  [
+   "serum",
+   67
+  ],
+  [
+   "urine",
+   61
+  ],
+  [
+   "csf",
+   5
+  ],
+  [
+   "effusion",
+   2
+  ],
+  [
+   "saliva",
+   2
+  ]
+ ],
+ "targets_integrity": [
+  [
+   "ALU",
+   109
+  ],
+  [
+   "ACTB",
+   22
+  ],
+  [
+   "LINE-1",
+   22
+  ],
+  [
+   "mtDNA",
+   16
+  ],
+  [
+   "GAPDH",
+   4
+  ],
+  [
+   "APP/other gene",
+   2
+  ]
+ ],
+ "methods_integrity": [
+  [
+   "qPCR",
+   156
+  ],
+  [
+   "sequencing",
+   23
+  ],
+  [
+   "electrophoresis",
+   12
+  ],
+  [
+   "ddPCR",
+   12
+  ]
+ ],
+ "purposes_integrity": [
+  [
+   "diagnosis",
+   248
+  ],
+  [
+   "prognosis",
+   125
+  ],
+  [
+   "treatment monitoring",
+   125
+  ],
+  [
+   "pre-analytics/method",
+   39
+  ]
+ ],
+ "countries_direct": [
+  [
+   "US",
+   96
+  ],
+  [
+   "CN",
+   87
+  ],
+  [
+   "DE",
+   71
+  ],
+  [
+   "IT",
+   49
+  ],
+  [
+   "JP",
+   35
+  ],
+  [
+   "GB",
+   33
+  ],
+  [
+   "FR",
+   33
+  ],
+  [
+   "IN",
+   26
+  ],
+  [
+   "ES",
+   21
+  ],
+  [
+   "EG",
+   19
+  ],
+  [
+   "AU",
+   16
+  ],
+  [
+   "BR",
+   16
+  ],
+  [
+   "RU",
+   14
+  ],
+  [
+   "NL",
+   14
+  ],
+  [
+   "KR",
+   13
+  ],
+  [
+   "CH",
+   12
+  ],
+  [
+   "TR",
+   12
+  ],
+  [
+   "HK",
+   11
+  ],
+  [
+   "CA",
+   11
+  ],
+  [
+   "AT",
+   10
+  ]
+ ],
+ "animal_integrity": 3
+}

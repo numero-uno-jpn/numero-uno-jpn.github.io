@@ -1,0 +1,10 @@
+title: 梅谷 直亨 / Naoyuki Umetani, MD, PhD
+description: 消化器外科医。手術・がん研究・化学療法・緩和医療から直腸脱の腹腔鏡下手術まで。
+lang: ja
+theme: jekyll-theme-primer
+exclude:
+  - research-map/*.py
+  - research-map/data/ai
+  - research-map/data/citing_raw.json
+  - research-map/data/keyword_raw.json
+  - README.md

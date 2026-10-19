@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>cfDNA Integrity の系譜</title>
+<meta name="description" content="2006 年に梅谷らが発表した、血中遊離 DNA の integrity (ALU247/115) によるがん診断のアイデアが、その後どのような研究につながったかを俯瞰する。">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="viz-root">
+<header class="hero">
+  <p class="eyebrow">梅谷直亨の研究の系譜</p>
+  <h1>血中遊離 DNA の <span class="nowrap">integrity</span> によるがん診断</h1>
+  <p class="lead">2006 年、DNA を精製せずに血清 1 滴分から遊離 DNA の「長さの分布」を測る方法 (ALU 反復配列の直接 qPCR、ALU247/115) を報告した。この 3 本の論文を起点に、どのような後続研究が生まれたかをまとめる。</p>
+  <div class="stats" id="stats"></div>
+  <nav class="toc">
+    <a href="#story">年表</a><a href="#map">系譜マップ</a><a href="#trend">年次推移</a><a href="#breakdown">内訳</a><a href="#list">文献一覧</a><a href="#method">データと方法</a>
+  </nav>
+</header>
+
+<main>
+<section id="story">
+  <h2>年表: ひとつのアイデアが潮流になるまで</h2>
+  <ol class="timeline" id="timeline"></ol>
+</section>
+
+<section id="map">
+  <h2>系譜マップ</h2>
+  <p class="note">中心が梅谷の 3 論文 (2006)。外側の円ほど新しい年。点 1 つが論文 1 本で、大きさは被引用数。点にマウスを重ねると題名、クリックすると詳細が出る。</p>
+  <div class="controls" role="group" aria-label="マップの表示切り替え">
+    <label>枝の分け方
+      <select id="groupBy">
+        <option value="cancer">がん種</option>
+        <option value="purpose">目的</option>
+        <option value="target">測定対象</option>
+      </select>
+    </label>
+    <label>表示
+      <select id="showWhich">
+        <option value="all">すべて</option>
+        <option value="core">血中 DNA の長さ (integrity) を測った研究のみ</option>
+        <option value="alu">ALU247/115 を使った研究のみ</option>
+        <option value="review">総説・メタ解析のみ</option>
+      </select>
+    </label>
+    <span class="count" id="mapCount"></span>
+  </div>
+  <div class="legend" id="mapLegend"></div>
+  <div class="map-wrap">
+    <svg id="mapSvg" role="img" aria-label="後続研究の系譜を示す放射状のマップ"></svg>
+    <aside class="detail" id="detail" aria-live="polite">
+      <p class="detail-empty">点をクリックすると、ここに論文の詳細が表示される。</p>
+    </aside>
+  </div>
+</section>
+
+<section id="trend">
+  <h2>年次推移</h2>
+  <p class="note">梅谷の 3 論文を引用した論文の数、後続研究のうち血中 DNA の長さ (integrity) を実際に測った研究の数、そして断片長の分布を網羅的に解析する fragmentomics の論文の数 (PubMed の検索による)。2026 年は 10 月までの集計なので少なく見える。</p>
+  <div class="legend" id="trendLegend"></div>
+  <div class="chart" id="trendChart"></div>
+</section>
+
+<section id="breakdown">
+  <h2>血中 DNA の長さ (integrity) を測った研究の内訳</h2>
+  <p class="note">血中 DNA の長さ (integrity) を実際に測った <span id="coreN"></span> 研究について、抄録から分類した。1 本の研究が複数に当てはまることがある。</p>
+  <div class="grid" id="bars"></div>
+</section>
+
+<section id="list">
+  <h2>文献一覧</h2>
+  <div class="controls">
+    <label>検索 <input type="search" id="q" placeholder="題名・著者・要約"></label>
+    <label>種別
+      <select id="fLineage"><option value="">すべて</option></select>
+    </label>
+    <label>がん種
+      <select id="fCancer"><option value="">すべて</option></select>
+    </label>
+    <label>並び順
+      <select id="fSort"><option value="cited">被引用の多い順</option><option value="new">新しい順</option><option value="old">古い順</option></select>
+    </label>
+    <span class="count" id="listCount"></span>
+  </div>
+  <div class="table-wrap">
+    <table id="table">
+      <thead><tr><th>年</th><th>種別</th><th>題名・要約</th><th>がん種</th><th class="num">被引用</th></tr></thead>
+      <tbody></tbody>
+    </table>
+  </div>
+</section>
+
+<section id="method">
+  <h2>データと方法</h2>
+  <ul class="method">
+    <li>起点: Umetani N ら, <i>Clin Chem</i> 2006;52:1062 (PMID 16723681)、<i>J Clin Oncol</i> 2006;24:4270 (PMID 16963729)、<i>Ann N Y Acad Sci</i> 2006;1075:299 (PMID 17108224)。</li>
+    <li>引用文献は PubMed の cited-by と OpenAlex の引用データの和集合 (<span id="nDirect"></span> 件、2026 年 10 月時点)。キーワード検索 (DNA integrity / ALU247・115 / fragmentomics) で、直接は引用していない関連研究も加えた。</li>
+    <li>種別・がん種・検体・測定対象・結論・要約は、AI (Claude) が抄録を読んで付けたもの。抄録だけによる判定のため、個々の分類には誤りがありうる。被引用数は OpenAlex による。</li>
+    <li>血中 DNA の integrity (長い断片の割合) をがんの指標にする研究は、梅谷らと Wang BG ら (Johns Hopkins) が同時期にそれぞれ独自に進めており、論文の公表は Wang ら (<i>Cancer Res</i> 2003) が先だった。梅谷らは 2006 年の論文で、血清を DNA 精製なしに直接測る ALU qPCR (検出限界 0.01 pg、精製の省略による誤差とコストの削減、高い処理能力) を示し、この方法が後続研究で最も広く使われた。</li>
+    <li>腫瘍由来の DNA はむしろ短いという報告 (Mouliere 2011 ほか) もあり、integrity の上昇・低下はがん種や測定法で一致しない。その後、断片長を網羅的に解析する fragmentomics へと発展した。</li>
+  </ul>
+  <p class="back"><a href="../">自己紹介に戻る</a></p>
+</section>
+</main>
+<div class="tooltip" id="tooltip" role="tooltip" hidden></div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+<script src="lineage.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

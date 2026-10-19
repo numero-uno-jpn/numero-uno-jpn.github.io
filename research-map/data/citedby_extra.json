@@ -1,0 +1,668 @@
+{
+"24698732": {
+"cited_by": 230,
+"countries": [
+"FR",
+"GB",
+"US"
+]
+},
+"27865784": {
+"cited_by": 207,
+"countries": [
+"BE"
+]
+},
+"32122922": {
+"cited_by": 139,
+"countries": [
+"AU",
+"DE",
+"US"
+]
+},
+"26123439": {
+"cited_by": 106,
+"countries": [
+"FR"
+]
+},
+"30389699": {
+"cited_by": 92,
+"countries": [
+"GB",
+"NL",
+"US"
+]
+},
+"23141783": {
+"cited_by": 82,
+"countries": [
+"IT"
+]
+},
+"24878357": {
+"cited_by": 75,
+"countries": [
+"DE"
+]
+},
+"16991120": {
+"cited_by": 91,
+"countries": [
+"US"
+]
+},
+"17108226": {
+"cited_by": 71,
+"countries": [
+"GB"
+]
+},
+"26569345": {
+"cited_by": 66,
+"countries": [
+"CN",
+"DE"
+]
+},
+"23509700": {
+"cited_by": 65,
+"countries": [
+"IT"
+]
+},
+"26412928": {
+"cited_by": 48,
+"countries": [
+"IT"
+]
+},
+"29905010": {
+"cited_by": 46,
+"countries": [
+"CN"
+]
+},
+"27039817": {
+"cited_by": 44,
+"countries": [
+"EG"
+]
+},
+"32924831": {
+"cited_by": 39,
+"countries": [
+"PL"
+]
+},
+"21319970": {
+"cited_by": 33,
+"countries": [
+"GB"
+]
+},
+"31585514": {
+"cited_by": 32,
+"countries": [
+"JP"
+]
+},
+"29861862": {
+"cited_by": 30,
+"countries": [
+"JP"
+]
+},
+"31472049": {
+"cited_by": 30,
+"countries": [
+"CN"
+]
+},
+"33901468": {
+"cited_by": 30,
+"countries": []
+},
+"30292543": {
+"cited_by": 28,
+"countries": [
+"CN"
+]
+},
+"31715326": {
+"cited_by": 27,
+"countries": [
+"FR",
+"IR",
+"SG"
+]
+},
+"29401471": {
+"cited_by": 25,
+"countries": [
+"CN"
+]
+},
+"31685910": {
+"cited_by": 25,
+"countries": [
+"PL"
+]
+},
+"33457006": {
+"cited_by": 22,
+"countries": [
+"CN"
+]
+},
+"26854716": {
+"cited_by": 43,
+"countries": []
+},
+"29113814": {
+"cited_by": 39,
+"countries": [
+"CN"
+]
+},
+"24815830": {
+"cited_by": 33,
+"countries": [
+"DE"
+]
+},
+"29130594": {
+"cited_by": 27,
+"countries": [
+"TR"
+]
+},
+"17908972": {
+"cited_by": 25,
+"countries": [
+"AT",
+"TW",
+"US"
+]
+},
+"29664127": {
+"cited_by": 21,
+"countries": [
+"CH"
+]
+},
+"31502389": {
+"cited_by": 18,
+"countries": [
+"CN"
+]
+},
+"32495293": {
+"cited_by": 18,
+"countries": [
+"DE",
+"IR",
+"US"
+]
+},
+"31620364": {
+"cited_by": 13,
+"countries": [
+"US"
+]
+},
+"31472048": {
+"cited_by": 12,
+"countries": [
+"CN"
+]
+},
+"31378479": {
+"cited_by": 11,
+"countries": [
+"CA",
+"US"
+]
+},
+"32415940": {
+"cited_by": 11,
+"countries": [
+"CN"
+]
+},
+"28117781": {
+"cited_by": 16,
+"countries": [
+"IT"
+]
+},
+"30145546": {
+"cited_by": 14,
+"countries": [
+"SA"
+]
+},
+"31908742": {
+"cited_by": 10,
+"countries": [
+"IR"
+]
+},
+"27356723": {
+"cited_by": 9,
+"countries": [
+"EG"
+]
+},
+"31880527": {
+"cited_by": 8,
+"countries": [
+"CN"
+]
+},
+"30521613": {
+"cited_by": 7,
+"countries": [
+"US"
+]
+},
+"30605980": {
+"cited_by": 5,
+"countries": [
+"CN"
+]
+},
+"28164530": {
+"cited_by": 6,
+"countries": []
+},
+"33721440": {
+"cited_by": 5,
+"countries": [
+"CN"
+]
+},
+"29218690": {
+"cited_by": 3,
+"countries": [
+"TR"
+]
+},
+"31472046": {
+"cited_by": 3,
+"countries": [
+"CN"
+]
+},
+"32804121": {
+"cited_by": 1,
+"countries": [
+"IR"
+]
+},
+"18219849": {
+"cited_by": 6,
+"countries": [
+"JP"
+]
+},
+"34407295": {
+"cited_by": 40,
+"countries": [
+"ES"
+]
+},
+"34511270": {
+"cited_by": 38,
+"countries": [
+"PT"
+]
+},
+"35656387": {
+"cited_by": 26,
+"countries": [
+"HR"
+]
+},
+"36766755": {
+"cited_by": 20,
+"countries": [
+"CH"
+]
+},
+"37882489": {
+"cited_by": 19,
+"countries": [
+"DK"
+]
+},
+"35685424": {
+"cited_by": 14,
+"countries": [
+"CN"
+]
+},
+"37150134": {
+"cited_by": 13,
+"countries": [
+"IN"
+]
+},
+"40710315": {
+"cited_by": 12,
+"countries": [
+"US"
+]
+},
+"40102951": {
+"cited_by": 10,
+"countries": [
+"CN"
+]
+},
+"41069684": {
+"cited_by": 8,
+"countries": [
+"CA",
+"US"
+]
+},
+"37408834": {
+"cited_by": 7,
+"countries": [
+"JP"
+]
+},
+"40149374": {
+"cited_by": 7,
+"countries": [
+"GR"
+]
+},
+"33901234": {
+"cited_by": 13,
+"countries": [
+"AU"
+]
+},
+"36800605": {
+"cited_by": 9,
+"countries": [
+"CN"
+]
+},
+"36166696": {
+"cited_by": 7,
+"countries": [
+"AU",
+"US"
+]
+},
+"36578480": {
+"cited_by": 6,
+"countries": [
+"CN"
+]
+},
+"34070520": {
+"cited_by": 11,
+"countries": [
+"GH"
+]
+},
+"33601025": {
+"cited_by": 10,
+"countries": [
+"EG"
+]
+},
+"36890488": {
+"cited_by": 8,
+"countries": [
+"CN"
+]
+},
+"38151854": {
+"cited_by": 8,
+"countries": [
+"KR"
+]
+},
+"35120838": {
+"cited_by": 6,
+"countries": [
+"EG"
+]
+},
+"35489725": {
+"cited_by": 6,
+"countries": [
+"LT"
+]
+},
+"34513842": {
+"cited_by": 5,
+"countries": [
+"CN",
+"PK"
+]
+},
+"36523306": {
+"cited_by": 5,
+"countries": [
+"CN"
+]
+},
+"34609300": {
+"cited_by": 4,
+"countries": [
+"TR"
+]
+},
+"37899036": {
+"cited_by": 4,
+"countries": [
+"CN"
+]
+},
+"38385729": {
+"cited_by": 3,
+"countries": [
+"AU"
+]
+},
+"36803362": {
+"cited_by": 4,
+"countries": [
+"EG",
+"US"
+]
+},
+"39525024": {
+"cited_by": 2,
+"countries": [
+"CN"
+]
+},
+"39828035": {
+"cited_by": 2,
+"countries": [
+"SE"
+]
+},
+"41009429": {
+"cited_by": 1,
+"countries": [
+"IT"
+]
+},
+"41515234": {
+"cited_by": 1,
+"countries": [
+"HU"
+]
+},
+"41574291": {
+"cited_by": 1,
+"countries": [
+"CH",
+"DE"
+]
+},
+"33260272": {
+"cited_by": 6,
+"countries": [
+"GR",
+"IT"
+]
+},
+"34832679": {
+"cited_by": 3,
+"countries": [
+"DE",
+"GR"
+]
+},
+"36611239": {
+"cited_by": 3,
+"countries": [
+"ES"
+]
+},
+"35189882": {
+"cited_by": 2,
+"countries": [
+"IR"
+]
+},
+"33651348": {
+"cited_by": 1,
+"countries": [
+"IT"
+]
+},
+"39192405": {
+"cited_by": 1,
+"countries": [
+"CN"
+]
+},
+"36046977": {
+"cited_by": 0,
+"countries": [
+"JP"
+]
+},
+"41810372": {
+"cited_by": 0,
+"countries": [
+"CA",
+"US"
+]
+},
+"40920323": {
+"cited_by": 0,
+"countries": [
+"MX"
+]
+},
+"41170612": {
+"cited_by": 0,
+"countries": [
+"CN"
+]
+},
+"42776677": {
+"cited_by": 0,
+"countries": [
+"IN"
+]
+},
+"42188364": {
+"cited_by": 0,
+"countries": [
+"US"
+]
+},
+"42274209": {
+"cited_by": 0,
+"countries": [
+"US"
+]
+},
+"42511713": {
+"cited_by": 0,
+"countries": [
+"PT"
+]
+},
+"42645355": {
+"cited_by": 0,
+"countries": [
+"CZ"
+]
+},
+"42622297": {
+"cited_by": 0,
+"countries": [
+"CN",
+"MO"
+]
+},
+"42882841": {
+"cited_by": 0,
+"countries": [
+"MA",
+"US"
+]
+},
+"12873992": {
+"cited_by": 328,
+"countries": [
+"US"
+]
+},
+"41232587": {
+"cited_by": 1,
+"countries": [
+"CA"
+]
+},
+"41498487": {
+"cited_by": 0,
+"countries": [
+"CN"
+]
+},
+"42318789": {
+"cited_by": 0,
+"countries": [
+"CN"
+]
+},
+"42445577": {
+"cited_by": 0,
+"countries": [
+"MX"
+]
+},
+"42522832": {
+"cited_by": 0,
+"countries": [
+"EG"
+]
+},
+"42678053": {
+"cited_by": 0,
+"countries": [
+"AU"
+]
+},
+"42727688": {
+"cited_by": 0,
+"countries": [
+"DE"
+]
+}
+}
